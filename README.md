@@ -7,13 +7,7 @@ Welcome to the repository!. This is an innovative topological machine learning m
 
 
 # Model Architecture
-The model pipeline involves:
-- Define a *classlandmarks* for each class in the attribute space.
-- Extracting *Wise embeddings* for each node by calculating the distance from the *Classlandmarks*.
-- Use *Wise embeddings* for the input of baseline GNN models.
-- Incorporating topological embeddings via MLP layers.
-- Concatenating the embeddings for final classification.
-The combination of *Wise embeddings* and topological features allows the model to learn more expressive node representations.
+
 
 
 # Requirements
