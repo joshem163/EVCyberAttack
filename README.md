@@ -22,7 +22,7 @@ The code is implemented in python 3.11.4.
 
 
 # Runing the  Experiments
-To repeat the experiment, run the train.py file
+To repeat the experiment, run the train_EV.py file
 
 
 # Contributing
