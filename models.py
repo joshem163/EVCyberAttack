@@ -113,13 +113,13 @@ def select_threshold(time_series, Min_frq):
 
     return trashold
 def classify_sublist(sublist):
-    if sublist == []:
+    if sublist == [0]:
         return 0  # Class 0 for []
-    elif sublist == [0]:
-        return 1  # Class 1 for [0]
     elif sublist == [1]:
-        return 2  # Class 2 for [1]
+        return 1  # Class 1 for [0]
     elif sublist == [2]:
+        return 2  # Class 2 for [1]
+    elif sublist == [3]:
         return 3  # Class 3 for [2]
     else:
         return -1  # For sublists not matching any class (shouldn't happen)
